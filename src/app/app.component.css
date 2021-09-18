@@ -1,0 +1,56 @@
+
+.container{
+    display:flex;
+}
+.col{
+    flex-grow: 1;
+}
+.seat{
+margin-right: 20px;
+}
+.driver{
+    padding: 20px;
+    background-color: lightblue;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SeatContainer{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-seat{
+    background-color: rgb(240, 227, 227);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center; 
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+li{
+    margin: 10px;
+}
+
+button.selected {
+    background-color: pink;
+    color: green;
+  }
+button.green{
+    background-color: yellowgreen;
+    color: blue;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+  }
+
